@@ -1,0 +1,12 @@
+region                               = "us-east-1"
+avaliability_zone                    = "us-east-1a"
+profile                              = "[some_profile]" # AWS Credentials Profile
+tag                                  = "cracking_aws_creds"
+ec2_instances_count                  = 30
+whitelisted_ip_cidr_ssh              = "0.0.0.0/0"
+phone_number                         = "[12345678]" # Phone number to recieve SMS
+application_file_path                = "app/app"
+target_access_key                    = "AKIA1234567890%s" #%s is the place holder
+target_secret_key                    = "[secret_key]"
+number_of_characters_for_brute_force = 6
+number_of_workers                    = 15 # workers to run in the cracker
